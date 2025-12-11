@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>object_sample</title>
+    <link rel="stylesheet" href="./css/sample.css">
+</head>
+<body>
+
+    <header>
+        <div class="header_one">
+            <div class="header_imglogo"><img src="./images/Logo.png" alt=""></div>
+            <div class="header_logo"><p>LOGO</p></div>
+
+            <div class="header_side">
+                <div class="side1"><img src="./images/search-normal.png" alt=""></div>
+                <div class="side1"><img src="./images/heart.png" alt=""></div>
+                <div class="side1"><img src="./images/shopping-bag.png" alt=""></div>
+                <div class="side1"><img src="./images/profile.png" alt=""></div>
+                <!-- CART -->
+                <div class="header">
+                    <div class="cart-box" onclick="toggleCart()">
+                        🛒 Cart <span class="cart-count" id="cartCount">0</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="header_two">
+            <div class="header_two1">
+                <p>SHOP</p>
+                <p>SKILLS</p>
+                <p>STORIES</p>
+                <p>ABOUT</p>
+                <p>CONTACT US</p>
+            </div>
+        </div>
+    </header>
+
+    <nav>
+        <div class="nav_container">
+            <p class="text1">3425 ITEMS</p>
+
+            <div class="nav2">
+                <img src="./images/arrow-left.png">
+                <p>HIDE FILTERS</p>
+            </div>
+
+            <div class="nav3">
+                <p class="text1">RECOMMENDED</p>
+                <img src="./images/arrow-down.png">
+            </div>
+        </div>
+    </nav>
+
+    <!-- PRODUCTS GRID -->
+     <div id="mainProduct_container">
+    <div class="products" id="productContainer"></div>
+    </div>
+
+    <!-- CART POPUP -->
+    <div class="cart-popup" id="cartPopup">
+        <h2>Your Cart</h2>
+        <div class="cart-products" id="cartItems"></div>
+           <div class="total" id="totalPrice"></div>  
+    </div>
+    <footer>
+        <div class="foter_cont1">
+            <div class="bethe"> 
+                <p style="font-size: 20px;"><b>BE THE FIRST TO KNOW</b></p>
+                <p style="font-size: 16px;">Sign up for updates from mettā muse.</p>
+                <input type="text" placeholder="Enter your e-mail..">
+                <button>SUBSCRIBE</button>
+            </div>
+            <div class="CONTACT">
+                <p style=" font-size: 20px;"><b>CONTACT US</b></p>
+                <p class="address">+44 221 133 5360</p>
+                <p class="address">customercare@mettamuse.com</p>
+                <p class="currency">CURRENCY</p>
+                <div class="image_usd"><img src="./images/usa.png"width="24px"height="24px" alt=""><p>* USD</p></div>
+                <p class="paracontact">Transactions will be completed in Euros and a currency reference is available on hover.</p>
+            </div>
+        </div>
+        
+        <hr>
+
+        <div class="foter_cont2">
+            <div>
+                <p style="font-size: 24.71px;"><b>mettā muse</b></p>
+                <p style="font-size: 18px;">About Us</p>
+                <p style="font-size: 18px;">Stories</p>
+                <p style="font-size: 18px;">Boutiques</p>
+                <p style="font-size: 18px;">Contact Us</p>
+                <p style="font-size: 18px;">EU Compliances Docs</p>
+            </div>
+
+            <div>
+                <p style="font-size: 20px;"><b>Quick Links</b></p>
+                <p style="font-size: 18px;">Orders & Shipping</p>
+                <p style="font-size: 18px;">Join/Login as a Seller</p>
+                <p style="font-size: 18px;">Payment & Pricing</p>
+                <p style="font-size: 18px;">Return & Refunds</p>
+                <p style="font-size: 18px;">FAQs</p>
+                <p style="font-size: 18px;">Privacy Policy</p>
+                <p style="font-size: 18px;">Terms & Conditions</p>
+            </div>
+
+            <div class="fotter_last">
+                <p style="font-size: 20px;"><b>Follow Us</b></p>
+                <img src="./images/insta.png" alt="">
+                <img src="./images/linkedin.png" alt="">
+                <p style="font-size: 20px;">mettā muse ACCECPTS</p>
+                <div class="footer_imagelast">
+                    <div class="imgWhite"><img src="./images/Gpay.png" alt=""></div>
+                    <div class="imgWhite"><img  src="./images/mastercard.png" alt=""></div>
+                    <div class="imgWhite"><img src="./images/paytm.png" alt=""></div>
+                    <div><img src="./images/Amex.png" alt=""></div>
+                    <div class="imgWhite"><img src="./images/applepay.png" alt=""></div>
+                    <div class="imgVoilet"><img src="./images/Qpay.png" alt=""></div>
+                </div>
+                
+            </div>
+            
+        </div>
+
+        <p style="text-align: center;font-size: 14px;letter-spacing: 0px;">Copyright © 2023 mettamuse. All rights reserved.</p>
+
+    </div>
+
+
+
+    </footer>
+    <script src="./JS/sample.js"></script>
+</body>
+</html>
