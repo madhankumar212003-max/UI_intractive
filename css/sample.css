@@ -264,6 +264,7 @@ header{
   flex-wrap: wrap;
   gap: 10px;
   line-height: 50px;
+  margin: auto;
 }
 
 /*footer*/
